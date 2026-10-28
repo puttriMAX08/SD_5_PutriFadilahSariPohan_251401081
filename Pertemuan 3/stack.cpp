@@ -2,12 +2,12 @@
 #include <stack>
 using namespace std;
 
-int main(){
+int main() {
     system("cls");
     stack<int> tumpukan;
     int input;
 
-    while (cin >> input) {
+    while(cin >> input) {
         tumpukan.push(input);
     }
 
@@ -17,5 +17,7 @@ int main(){
     } while (tumpukan.size() != 0);
 
     cout << endl;
+    system("pause");
 
+    return 0;
 }
