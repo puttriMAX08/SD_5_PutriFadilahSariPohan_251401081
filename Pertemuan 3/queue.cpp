@@ -2,12 +2,12 @@
 #include <queue>
 using namespace std;
 
-int main(){
+int main() {
     system("cls");
-    queue<int> antrean;
-    int input;
+    queue<float> antrean;
+    float input;
 
-    while (cin >> input) {
+    while(cin >> input) {
         antrean.push(input);
     }
 
@@ -17,5 +17,7 @@ int main(){
     } while (antrean.size() != 0);
 
     cout << endl;
+    system("pause");
 
+    return 0;
 }
